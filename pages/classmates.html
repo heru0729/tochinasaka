@@ -2,91 +2,40 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>クラスメイト紹介 - 栃奈阪KOREA</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../style.css">
+<title>クラスメイト紹介 - TNTNBRNBRN部</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="bgTextLayer" class="bg-text-layer"></div>
+<div class="bg-text-layer" id="bgTextLayer"></div>
 
-<audio id="bgmAudio" src="../assets/bgm.mp3" loop autoplay playsinline></audio>
+<audio id="bgm" src="bgm.mp3" loop></audio>
 
-<marquee class="header-marquee" scrollamount="6">★★★ ようこそ栃奈阪KOREAへ ★★★ We are Tochinasaka! ★★★ ようこそ栃奈阪KOREAへ ★★★</marquee>
+<div class="page">
+  <h1 class="title">TNTNBRNBRN部</h1>
+  <p class="subtitle">クラスメイト紹介</p>
+  <div class="rainbow-line"></div>
 
-<div class="wrap">
+  <div class="bgm-controls">
+    <button id="muteBtn" type="button">🔇 ミュート</button>
+  </div>
 
-  <h1 class="title">クラスメイト紹介</h1>
+  <ul class="classmate-list">
+    <li><span class="num">1</span><span class="name">Heru</span></li>
+    <li><span class="num">2</span><span class="name">あああいう</span></li>
+    <li><span class="num">3</span><span class="name">東雲おおい</span></li>
+  </ul>
 
-  <marquee behavior="alternate" scrollamount="4" style="color:#0099ff; font-weight:bold; font-size:18px;">
-    We are Tochinasaka! We are Tochinasaka!
-  </marquee>
+  <div class="rainbow-line"></div>
 
-  <button id="muteBtn">🔊 BGMミュート</button>
-
-  <hr class="dot">
-
-  <nav class="linkbar">
-    <a href="../index.html">トップ</a>|
+  <nav class="site-nav">
+    <a href="index.html">トップ</a>
     <a href="classmates.html">クラスメイト紹介</a>
   </nav>
 
-  <hr class="dot">
-
-  <p>
-    栃奈阪KOREAを支える個性豊かな4人のクラスメイトをご紹介します。
-  </p>
-
-  <table class="classmates">
-    <tr>
-      <th style="width:12%;">No.</th>
-      <th style="width:28%;">名前</th>
-      <th>SNS</th>
-    </tr>
-    <tr>
-      <td class="num">1</td>
-      <td>Heru</td>
-      <td class="sns-links">
-        <a class="x-link" href="https://x.com/Heru_0729" target="_blank" rel="noopener">X</a>
-        <a class="yt-link" href="https://www.youtube.com/@Heru_29" target="_blank" rel="noopener">YouTube</a>
-        <a class="tiktok-link" href="https://www.tiktok.com/@heru_0729" target="_blank" rel="noopener">TikTok</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="num">2</td>
-      <td>あああいう</td>
-      <td class="sns-links">－</td>
-    </tr>
-    <tr>
-      <td class="num">3</td>
-      <td>ほっしー</td>
-      <td class="sns-links">
-        <a class="tiktok-link" href="https://www.tiktok.com/@yui00216" target="_blank" rel="noopener">TikTok</a>
-      </td>
-    </tr>
-    <tr>
-      <td class="num">4</td>
-      <td>東雲おおい</td>
-      <td class="sns-links">
-        <a class="x-link" href="https://x.com/ShinkibaSeaside" target="_blank" rel="noopener">X</a>
-        <a class="yt-link" href="https://www.youtube.com/@Shinkiba_Seaside" target="_blank" rel="noopener">YouTube</a>
-      </td>
-    </tr>
-  </table>
-
-  <hr class="dot">
-
-  <p style="text-align:center;">
-    <a href="../index.html">トップページに戻る</a>
-  </p>
-
-  <footer class="sitefooter">
-    Copyright (C) 栃奈阪KOREA All Rights Reserved.
-  </footer>
-
+  <footer class="site-footer">&copy; TNTNBRNBRN部</footer>
 </div>
 
-<script src="../bgtext.js"></script>
-<script src="../bgm.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
