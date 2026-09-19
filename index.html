@@ -2,74 +2,33 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>栃奈阪KOREA - We are Tochinasaka!</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TNTNBRNBRN部</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="bgTextLayer" class="bg-text-layer"></div>
+<div class="bg-text-layer" id="bgTextLayer"></div>
 
-<audio id="bgmAudio" src="assets/bgm.mp3" loop autoplay playsinline></audio>
+<audio id="bgm" src="bgm.mp3" loop></audio>
 
-<marquee class="header-marquee" scrollamount="6">★★★ ようこそ栃奈阪KOREAへ ★★★ We are Tochinasaka! ★★★ ようこそ栃奈阪KOREAへ ★★★</marquee>
+<div class="page">
+  <h1 class="title">TNTNBRNBRN部</h1>
+  <p class="subtitle">ようこそ！公式ホームページへ！</p>
+  <div class="rainbow-line"></div>
 
-<div class="wrap">
-
-  <h1 class="title">栃 奈 阪 KOREA</h1>
-
-  <marquee behavior="alternate" scrollamount="4" style="color:#ff00cc; font-weight:bold; font-size:20px;">
-    We are Tochinasaka! We are Tochinasaka! We are Tochinasaka!
-  </marquee>
-
-  <button id="muteBtn">🔊 BGMミュート</button>
-  <p style="text-align:center; font-size:12px; color:#555;">
-    （ミュートを押すまでBGMは永遠に流れ続けます）
-  </p>
-
-  <div class="bgm-download">
-    <a href="assets/bgm.mp3" download="hossy.mp3">🎵 このBGMをダウンロード（hossy.mp3）</a>
+  <div class="bgm-controls">
+    <button id="muteBtn" type="button">🔇 ミュート</button>
   </div>
 
-  <hr class="dot">
-
-  <nav class="linkbar">
-    <a href="index.html">トップ</a>|
-    <a href="pages/classmates.html">クラスメイト紹介</a>
+  <nav class="site-nav">
+    <a href="index.html">トップ</a>
+    <a href="classmates.html">クラスメイト紹介</a>
   </nav>
 
-  <hr class="dot">
-
-  <p>
-    ようこそ、<span class="blink">栃奈阪KOREA</span> 公式サイトへ！<br>
-    栃木・神奈川・大阪を拠点に活動する「栃奈阪KOREA」の公式・公認ホームページです。
-  </p>
-
-  <p>
-    このサイトはリンク先ページも含め、開いた瞬間からBGMが流れる仕様になっております。<br>
-    ブラウザによっては自動再生がブロックされる場合がありますが、
-    その場合は画面のどこかを一度クリックしていただければ即座に鳴り出します。
-  </p>
-
-  <div class="under-construction">
-    <p>【工事中】 🚧 このサイトは絶賛製作中です 🚧</p>
-    <p class="counter">total visitor: 20260811 人</p>
-  </div>
-
-  <hr class="dot">
-
-  <p style="text-align:center;">
-    まずは <a href="pages/classmates.html">クラスメイト紹介ページ</a> をご覧ください。
-  </p>
-
-  <footer class="sitefooter">
-    Copyright (C) 栃奈阪KOREA All Rights Reserved.<br>
-    このサイトはリンクフリーです。相互リンク募集中。
-  </footer>
-
+  <div class="rainbow-line"></div>
+  <footer class="site-footer">&copy; TNTNBRNBRN部</footer>
 </div>
 
-<script src="bgtext.js"></script>
-<script src="bgm.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
